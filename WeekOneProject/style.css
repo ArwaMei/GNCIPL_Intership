@@ -251,11 +251,10 @@ nav{
 .tools-content-txt a{
     color: #2998F2;
 }
-.features-content-img
-.deployment-content-img{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.features-content-img img, 
+.deployment-content-img img,
+.tools-content-img img{
+    width: 400px;
 }
 #deployment-options{
     display: flex;
